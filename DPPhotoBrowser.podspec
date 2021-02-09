@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "*.jpg", "*.png","*.md", "*.mobileprovision"
+  # spec.resources = "DPPhotoBrowser/Assets.xcassets/*.jpg"
 
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -135,6 +135,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'Kingfisher'
+  spec.dependency 'Kingfisher', '~> 6.1.0'
 
 end
