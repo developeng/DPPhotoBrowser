@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import UIKit
+
+extension UIView {
+    func getParsentView(view:UIView) -> UIView {
+        if (view.next is UIViewController)  {
+            return view;
+        }
+        return self.getParsentView(view: view.superview!)
+    }
+}

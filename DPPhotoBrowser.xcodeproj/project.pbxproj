@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		57A134E125CBA3650015055B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A134E025CBA3650015055B /* AppDelegate.swift */; };
-		57A134E325CBA3660015055B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A134E225CBA3660015055B /* SceneDelegate.swift */; };
 		57A134E525CBA3660015055B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A134E425CBA3660015055B /* ViewController.swift */; };
 		57A134E825CBA3660015055B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A134E625CBA3660015055B /* Main.storyboard */; };
 		57A134EA25CBA3670015055B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A134E925CBA3670015055B /* Assets.xcassets */; };
 		57A134ED25CBA3670015055B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A134EB25CBA3670015055B /* LaunchScreen.storyboard */; };
 		57A134F825CBA3680015055B /* DPPhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A134F725CBA3680015055B /* DPPhotoBrowserTests.swift */; };
 		57A1350325CBA3680015055B /* DPPhotoBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1350225CBA3680015055B /* DPPhotoBrowserUITests.swift */; };
+		57A1351E25CBA5610015055B /* DPPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1351D25CBA5610015055B /* DPPhotoBrowser.swift */; };
+		57A1352825CBA8350015055B /* DPPhotoBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1352725CBA8350015055B /* DPPhotoBrowserCell.swift */; };
+		57A1352D25CBDAB10015055B /* DPPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1352C25CBDAB10015055B /* DPPhotoBrowserController.swift */; };
+		57A1354625CCE8550015055B /* UIView+DPPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1354525CCE8550015055B /* UIView+DPPhotoBrowser.swift */; };
+		57A1354B25CCF8B30015055B /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1354A25CCF8B30015055B /* DemoTableViewCell.swift */; };
+		57A1355025CD261E0015055B /* DemoIITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1354F25CD261E0015055B /* DemoIITableViewCell.swift */; };
+		57A1355625D0EAFC0015055B /* GlobalConfigDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1355525D0EAF90015055B /* GlobalConfigDefinition.swift */; };
+		57A1355E25D108710015055B /* DPPhotoBrowerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1355D25D108710015055B /* DPPhotoBrowerConfig.swift */; };
+		57A1356325D11CFE0015055B /* DPSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1356225D11CFE0015055B /* DPSheetView.swift */; };
+		57A1356825D260E80015055B /* DemoIIITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1356725D260E70015055B /* DemoIIITableViewCell.swift */; };
+		A93EFF3B06C12919FB1C40E2 /* Pods_DPPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB3D2BBBB3E1C8D8F1F4C18 /* Pods_DPPhotoBrowser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300492D6F924E565A3832F56 /* Pods-DPPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-DPPhotoBrowser/Pods-DPPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		57A134DD25CBA3650015055B /* DPPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A134E025CBA3650015055B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57A134E225CBA3660015055B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57A134E425CBA3660015055B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57A134E725CBA3660015055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57A134E925CBA3670015055B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		57A134FE25CBA3680015055B /* DPPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A1350225CBA3680015055B /* DPPhotoBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPhotoBrowserUITests.swift; sourceTree = "<group>"; };
 		57A1350425CBA3680015055B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A1351D25CBA5610015055B /* DPPhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPhotoBrowser.swift; sourceTree = "<group>"; };
+		57A1352725CBA8350015055B /* DPPhotoBrowserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPhotoBrowserCell.swift; sourceTree = "<group>"; };
+		57A1352C25CBDAB10015055B /* DPPhotoBrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPhotoBrowserController.swift; sourceTree = "<group>"; };
+		57A1354525CCE8550015055B /* UIView+DPPhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+DPPhotoBrowser.swift"; sourceTree = "<group>"; };
+		57A1354A25CCF8B30015055B /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		57A1354F25CD261E0015055B /* DemoIITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIITableViewCell.swift; sourceTree = "<group>"; };
+		57A1355525D0EAF90015055B /* GlobalConfigDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConfigDefinition.swift; sourceTree = "<group>"; };
+		57A1355D25D108710015055B /* DPPhotoBrowerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPhotoBrowerConfig.swift; sourceTree = "<group>"; };
+		57A1356225D11CFE0015055B /* DPSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPSheetView.swift; sourceTree = "<group>"; };
+		57A1356725D260E70015055B /* DemoIIITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIIITableViewCell.swift; sourceTree = "<group>"; };
+		BDB3D2BBBB3E1C8D8F1F4C18 /* Pods_DPPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53A1FB928BC8B8EBA2E2904 /* Pods-DPPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-DPPhotoBrowser/Pods-DPPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93EFF3B06C12919FB1C40E2 /* Pods_DPPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5387141FC93DF4E3EE8341C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB3D2BBBB3E1C8D8F1F4C18 /* Pods_DPPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		57A134D425CBA3650015055B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				57A134F625CBA3680015055B /* DPPhotoBrowserTests */,
 				57A1350125CBA3680015055B /* DPPhotoBrowserUITests */,
 				57A134DE25CBA3650015055B /* Products */,
+				A9112655B877EE10C264A0FC /* Pods */,
+				5387141FC93DF4E3EE8341C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +132,12 @@
 		57A134DF25CBA3650015055B /* DPPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				57A1351C25CBA5340015055B /* DPPhotoBrowser */,
 				57A134E025CBA3650015055B /* AppDelegate.swift */,
-				57A134E225CBA3660015055B /* SceneDelegate.swift */,
 				57A134E425CBA3660015055B /* ViewController.swift */,
+				57A1354A25CCF8B30015055B /* DemoTableViewCell.swift */,
+				57A1354F25CD261E0015055B /* DemoIITableViewCell.swift */,
+				57A1356725D260E70015055B /* DemoIIITableViewCell.swift */,
 				57A134E625CBA3660015055B /* Main.storyboard */,
 				57A134E925CBA3670015055B /* Assets.xcassets */,
 				57A134EB25CBA3670015055B /* LaunchScreen.storyboard */,
@@ -128,6 +164,29 @@
 			path = DPPhotoBrowserUITests;
 			sourceTree = "<group>";
 		};
+		57A1351C25CBA5340015055B /* DPPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				57A1355525D0EAF90015055B /* GlobalConfigDefinition.swift */,
+				57A1351D25CBA5610015055B /* DPPhotoBrowser.swift */,
+				57A1352725CBA8350015055B /* DPPhotoBrowserCell.swift */,
+				57A1352C25CBDAB10015055B /* DPPhotoBrowserController.swift */,
+				57A1354525CCE8550015055B /* UIView+DPPhotoBrowser.swift */,
+				57A1355D25D108710015055B /* DPPhotoBrowerConfig.swift */,
+				57A1356225D11CFE0015055B /* DPSheetView.swift */,
+			);
+			path = DPPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		A9112655B877EE10C264A0FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53A1FB928BC8B8EBA2E2904 /* Pods-DPPhotoBrowser.debug.xcconfig */,
+				300492D6F924E565A3832F56 /* Pods-DPPhotoBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57A1350725CBA3680015055B /* Build configuration list for PBXNativeTarget "DPPhotoBrowser" */;
 			buildPhases = (
+				499E0CF5C2CF3B02251CD46F /* [CP] Check Pods Manifest.lock */,
 				57A134D925CBA3650015055B /* Sources */,
 				57A134DA25CBA3650015055B /* Frameworks */,
 				57A134DB25CBA3650015055B /* Resources */,
+				A8CF13442AA98FE314842AF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +314,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		499E0CF5C2CF3B02251CD46F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DPPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CF13442AA98FE314842AF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPPhotoBrowser/Pods-DPPhotoBrowser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPPhotoBrowser/Pods-DPPhotoBrowser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DPPhotoBrowser/Pods-DPPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57A134D925CBA3650015055B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A1354B25CCF8B30015055B /* DemoTableViewCell.swift in Sources */,
+				57A1354625CCE8550015055B /* UIView+DPPhotoBrowser.swift in Sources */,
+				57A1351E25CBA5610015055B /* DPPhotoBrowser.swift in Sources */,
+				57A1355E25D108710015055B /* DPPhotoBrowerConfig.swift in Sources */,
 				57A134E525CBA3660015055B /* ViewController.swift in Sources */,
+				57A1352825CBA8350015055B /* DPPhotoBrowserCell.swift in Sources */,
 				57A134E125CBA3650015055B /* AppDelegate.swift in Sources */,
-				57A134E325CBA3660015055B /* SceneDelegate.swift in Sources */,
+				57A1355625D0EAFC0015055B /* GlobalConfigDefinition.swift in Sources */,
+				57A1356825D260E80015055B /* DemoIIITableViewCell.swift in Sources */,
+				57A1355025CD261E0015055B /* DemoIITableViewCell.swift in Sources */,
+				57A1356325D11CFE0015055B /* DPSheetView.swift in Sources */,
+				57A1352D25CBDAB10015055B /* DPPhotoBrowserController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,10 +545,12 @@
 		};
 		57A1350825CBA3680015055B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53A1FB928BC8B8EBA2E2904 /* Pods-DPPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANJ8234CZ8;
 				INFOPLIST_FILE = DPPhotoBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +565,12 @@
 		};
 		57A1350925CBA3680015055B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300492D6F924E565A3832F56 /* Pods-DPPhotoBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANJ8234CZ8;
 				INFOPLIST_FILE = DPPhotoBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
