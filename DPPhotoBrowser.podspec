@@ -17,17 +17,18 @@ Pod::Spec.new do |spec|
 
   spec.name         = "DPPhotoBrowser"
   spec.version      = "0.0.1"
-  spec.summary      = "DPPhotoBrowser 图片放大查看"
+  spec.summary      = "图片放大查看，图片保存"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  # spec.description  = <<-DESC
-                   # DESC
+  spec.description  = <<-DESC
+                  自定义图片放大器
+                    DESC
 
-  spec.homepage     = "https://github.com/developeng/DPPhotoBrowser.git"
+  spec.homepage     = "https://github.com/developeng/DPPhotoBrowser"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,6 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
+  spec.swift_version  = "5.0"
   spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
@@ -90,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DPPhotoBrowser/*.{h,m,swift}"
+  spec.source_files  = "DPPhotoBrowser", "DPPhotoBrowser/**/*.swift"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -105,7 +107,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "*.jpg", "*.md", "*.mobileprovision"
+  spec.resources = "*.jpg", "*.png","*.md", "*.mobileprovision"
+
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -129,7 +132,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "Kingfisher"
