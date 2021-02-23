@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-let APPDELEGATE = UIApplication.shared.delegate as! AppDelegate
 
 let DP_SCREEN_WIDTH = UIScreen.main.bounds.size.width
 let DP_SCREEN_HEIGHT = UIScreen.main.bounds.size.height
