@@ -20,7 +20,6 @@
 		57A1354625CCE8550015055B /* UIView+DPPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1354525CCE8550015055B /* UIView+DPPhotoBrowser.swift */; };
 		57A1354B25CCF8B30015055B /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1354A25CCF8B30015055B /* DemoTableViewCell.swift */; };
 		57A1355025CD261E0015055B /* DemoIITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1354F25CD261E0015055B /* DemoIITableViewCell.swift */; };
-		57A1355625D0EAFC0015055B /* GlobalConfigDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1355525D0EAF90015055B /* GlobalConfigDefinition.swift */; };
 		57A1355E25D108710015055B /* DPPhotoBrowerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1355D25D108710015055B /* DPPhotoBrowerConfig.swift */; };
 		57A1356325D11CFE0015055B /* DPSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1356225D11CFE0015055B /* DPSheetView.swift */; };
 		57A1356825D260E80015055B /* DemoIIITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1356725D260E70015055B /* DemoIIITableViewCell.swift */; };
@@ -65,7 +64,6 @@
 		57A1354525CCE8550015055B /* UIView+DPPhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+DPPhotoBrowser.swift"; sourceTree = "<group>"; };
 		57A1354A25CCF8B30015055B /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		57A1354F25CD261E0015055B /* DemoIITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIITableViewCell.swift; sourceTree = "<group>"; };
-		57A1355525D0EAF90015055B /* GlobalConfigDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConfigDefinition.swift; sourceTree = "<group>"; };
 		57A1355D25D108710015055B /* DPPhotoBrowerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPhotoBrowerConfig.swift; sourceTree = "<group>"; };
 		57A1356225D11CFE0015055B /* DPSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPSheetView.swift; sourceTree = "<group>"; };
 		57A1356725D260E70015055B /* DemoIIITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIIITableViewCell.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 		57A1351C25CBA5340015055B /* DPPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				57A1355525D0EAF90015055B /* GlobalConfigDefinition.swift */,
 				57A1351D25CBA5610015055B /* DPPhotoBrowser.swift */,
 				57A1352725CBA8350015055B /* DPPhotoBrowserCell.swift */,
 				57A1352C25CBDAB10015055B /* DPPhotoBrowserController.swift */,
@@ -368,7 +365,6 @@
 				57A134E525CBA3660015055B /* ViewController.swift in Sources */,
 				57A1352825CBA8350015055B /* DPPhotoBrowserCell.swift in Sources */,
 				57A134E125CBA3650015055B /* AppDelegate.swift in Sources */,
-				57A1355625D0EAFC0015055B /* GlobalConfigDefinition.swift in Sources */,
 				57A1356825D260E80015055B /* DemoIIITableViewCell.swift in Sources */,
 				57A1355025CD261E0015055B /* DemoIITableViewCell.swift in Sources */,
 				57A1356325D11CFE0015055B /* DPSheetView.swift in Sources */,
