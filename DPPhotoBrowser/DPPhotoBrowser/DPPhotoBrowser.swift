@@ -24,7 +24,7 @@ class DPPhotoBrowser: NSObject {
     /// - Parameters:
     ///   - imgArr: 图片数组,支持网络图片，本地图片，UIImage,例如["https://...jpg"],["lizi.png"],[UIImage]
     ///   - selectIndex: 首次点开 选中图片的下标记
-    static func showPhotos(imgArr:Array<Any>, superView:UIView,selectIndex:Int = 0, config: DPPhotoBrowerConfig = DPPhotoBrowerConfig()) {
+    public static func showPhotos(imgArr:Array<Any>, superView:UIView,selectIndex:Int = 0, config: DPPhotoBrowerConfig = DPPhotoBrowerConfig()) {
         
         let vc:DPPhotoBrowserController = DPPhotoBrowserController()
         vc.sourceImagesContainerView = superView
