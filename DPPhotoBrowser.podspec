@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DPPhotoBrowser"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "图片放大查看，图片保存"
   spec.homepage     = "https://github.com/developeng/DPPhotoBrowser"
   spec.license      = "MIT"
