@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "developeng" => "developeng@163.com" }
   spec.swift_version  = "5.0"
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/developeng/DPPhotoBrowser.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/developeng/DPPhotoBrowser.git", :tag => "0.0.2" }
   spec.source_files  = "DPPhotoBrowser/DPPhotoBrowser/*.swift"
   spec.frameworks = "UIKit", "Foundation"
   spec.requires_arc = true
